@@ -11,9 +11,9 @@ define([
         },
         routes : {
             // Define some URL routes
-            'hello': 'hello'
+
             // Default
-            , '*actions': 'defaultAction'
+            '*actions': 'defaultAction'
         }
     });
 
