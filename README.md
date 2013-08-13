@@ -21,6 +21,8 @@ Sometimes, i need to create a Single Page Application very quickly, and i need s
 
     git clone --q --depth 0 git@github.com:k33g/m33.git <your web app directory>
 
+You can find a tutorial here : [http://k33g.github.io/2013/08/13/THINK-SIMPLE.html](http://k33g.github.io/2013/08/13/THINK-SIMPLE.html).
+
 ##Update javascript libraries
 
 First you need to install **Pulldown** (and nodejs) : `pm install -g pulldown`, then :
