@@ -19,6 +19,8 @@ Sometimes, i need to create a Single Page Application very quickly, and i need s
 - Require.js and text plugin
 - and Bootstrap 3
 
+See [https://github.com/k33g/m33/blob/master/components.data.js](https://github.com/k33g/m33/blob/master/components.data.js) about versions
+
 ##Install
 
     git clone --q --depth 0 git@github.com:k33g/m33.git <your web app directory>
