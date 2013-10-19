@@ -3,6 +3,8 @@ M33
 
 Minimalistic Backbone BoilerPlate (with RequireJS)
 
+Version : 0.0.0
+
 ##Why ?
 
 Sometimes, i need to create a Single Page Application very quickly, and i need something very light (Sorry Bower and Yeoman you're too fat for me). So, i've created an other (again!) Backbone Boilerplate "manually" and i use the beautifully simple **Pulldown** [https://github.com/jackfranklin/pulldown](https://github.com/jackfranklin/pulldown) to load and update my javascript libraries.
