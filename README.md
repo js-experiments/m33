@@ -25,7 +25,7 @@ You can find a tutorial here : [http://k33g.github.io/2013/08/13/THINK-SIMPLE.ht
 
 ##Update javascript libraries
 
-First you need to install **Pulldown** (and nodejs) : `pm install -g pulldown`, then :
+First you need to install **Pulldown** (and nodejs) : `npm install -g pulldown`, then :
 
     cd <your web app directory>
     ./loadjs.sh #or loadjs.cmd under windows
