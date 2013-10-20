@@ -17,7 +17,16 @@ Sometimes, i need to create a Single Page Application very quickly, and i need s
 - Underscore (amd version)
 - jQuery
 - Require.js and text plugin
-- and Bootstrap 3
+- Bootstrap 3
+
+##Helpers
+
+- DOM Observer helper ***(caution : WIP)***
+
+
+    domobserver.getObserver("h1", "characterData", function(node, new_value, old_value){
+        console.log("h1 has change",node, new_value, old_value)
+    });
 
 See [https://github.com/k33g/m33/blob/master/components.data.js](https://github.com/k33g/m33/blob/master/components.data.js) about versions
 
