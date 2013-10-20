@@ -5,7 +5,8 @@ requirejs.config({
         "underscore"    : "vendors/underscore-min", /*This is amd version of underscore */
         "backbone"      : "vendors/backbone-min",   /*This is amd version of backbone   */
         "text"          : "vendors/text",
-        "bootstrap"     : "../bootstrap3/js/bootstrap.min"
+        "bootstrap"     : "../bootstrap3/js/bootstrap.min",
+        "domobserver"   : "org.k33g/dom.observer"
     }
 });
 
