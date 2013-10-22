@@ -4,5 +4,5 @@
     , {"id":"003", "name":"jQuery", "version":"2.0.3"}
     , {"id":"004", "name":"Require", "version":"2.1.8"}
     , {"id":"005", "name":"Require-text", "version":"2.0.10"}
-    , {"id":"006", "name":"DOM Observer helper", "version":"wip"}
+    , {"id":"006", "name":"module sample", "version":"(wip)"}
 ]

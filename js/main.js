@@ -6,7 +6,7 @@ requirejs.config({
         "backbone"      : "vendors/backbone-min",   /*This is amd version of backbone   */
         "text"          : "vendors/text",
         "bootstrap"     : "../bootstrap3/js/bootstrap.min",
-        "domobserver"   : "org.k33g/dom.observer"
+        "little"        : "org.k33g/my.little.module"
     }
 });
 
