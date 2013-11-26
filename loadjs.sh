@@ -9,6 +9,7 @@ pulldown "https://raw.github.com/amdjs/backbone/master/backbone-min.js" -o js/ve
 pulldown jquery -o js/vendors
 pulldown require.js -o js/vendors
 #pulldown require-text -o js/vendors
+pulldown "https://raw.github.com/requirejs/domReady/latest/domReady.js" -o js/vendors
 
 pulldown "https://raw.github.com/requirejs/text/master/text.js" -o js/vendors
 
@@ -27,6 +28,9 @@ pulldown "https://raw.github.com/twbs/bootstrap/master/dist/fonts/glyphicons-hal
 pulldown "https://raw.github.com/twbs/bootstrap/master/dist/fonts/glyphicons-halflings-regular.svg" -o bootstrap3/fonts
 pulldown "https://raw.github.com/twbs/bootstrap/master/dist/fonts/glyphicons-halflings-regular.ttf" -o bootstrap3/fonts
 pulldown "https://raw.github.com/twbs/bootstrap/master/dist/fonts/glyphicons-halflings-regular.woff" -o bootstrap3/fonts
+
+pulldown "https://raw.github.com/coreyti/showdown/master/src/showdown.js" -o js/vendors
+
 
 
 

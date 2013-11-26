@@ -5,7 +5,7 @@ define([
 
     var Components = Backbone.Collection.extend({
         model : Component,
-        url : "/components.data.js"
+        url : "data/components.data.js"
     });
 
     return Components

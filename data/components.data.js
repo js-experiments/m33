@@ -5,4 +5,5 @@
     , {"id":"004", "name":"Require", "version":"2.1.8"}
     , {"id":"005", "name":"Require-text", "version":"2.0.10"}
     , {"id":"006", "name":"module sample", "version":"(wip)"}
+		, {"id":"007", "name":"Lazy AMD", "version":"0.0.0"}
 ]

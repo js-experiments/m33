@@ -4,8 +4,8 @@ define([
 
     var Component = Backbone.Model.extend({
         defaults : {
-            name : "???",
-            version : "???"
+            name : "this is the component name",
+            version : "... and the component version"
         }
     });
 
