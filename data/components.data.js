@@ -6,4 +6,7 @@
     , {"id":"005", "name":"Require-text", "version":"2.0.10"}
     , {"id":"006", "name":"module sample", "version":"(wip)"}
 		, {"id":"007", "name":"Lazy AMD", "version":"0.0.0"}
+		, {"id":"008", "name":"Showdown", "version":"?.?.?"}
+		, {"id":"009", "name":"Highlight", "version":"?.?.?"}
+		, {"id":"010", "name":"Font Awesome", "version":"4.0.3"}
 ]

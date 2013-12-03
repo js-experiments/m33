@@ -9,8 +9,8 @@ requirejs.config({
     "bootstrap"     : "../bootstrap3/js/bootstrap.min",
 	  "showdown"      : "vendors/showdown",
 	  "highlight"     : "vendors/highlight.min",
-    "little"        : "org.k33g/my.little.module",
-    "lazy"          : "org.k33g/lazy"
+    "little"        : "vendors/org.k33g/my.little.module",
+    "lazy"          : "vendors/org.k33g/lazy"
   },
 	shim: {
 		"bootstrap": {
@@ -27,8 +27,9 @@ requirejs.config({
 
 require([
 	'domReady',
-	'application/Application'
-], function (domReady,Application) {
+	'application/Application',
+	'backbone'
+], function (domReady, Application, Backbone) {
 
 	domReady(function () {
 		//This function is called once the DOM is ready.

@@ -3,15 +3,15 @@ define([
     'underscore',
     'backbone',
 		'lazy',
-	  'text!templates/component.form.tpl.html'
+	  'text!./tpl.html'
 ], function($, _, Backbone, Lazy, componentFormTpl){
 
     var ComponentFormView = Lazy.View.extend({
-      properties : {
+      properties : function(){return{
 	      el : ".component-form-view",
 	      alias : "component", // for the template,
 	      template : componentFormTpl
-      },
+      }},
       events : {
 				'click .add-component': 'add',
 	      'change input': 'change'

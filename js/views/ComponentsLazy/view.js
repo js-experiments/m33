@@ -6,10 +6,10 @@ define([
 ], function($, _, Backbone, Lazy){
 
     var ComponentsView = Lazy.View.extend({
-      properties : {
+      properties : function(){return{
 	      el : ".components-lazy-view",
 	      alias : "components" // for the template
-      },
+      }},
 	    lazyTemplate : function() {/**
 				<h3 style="color:green">M33 Components</h3>
 

@@ -6,10 +6,10 @@ define([
 ], function($, _, Backbone, Lazy){
 
     var ComponentFormView = Lazy.View.extend({
-      properties : {
+      properties : function(){return{
 	      el : ".component-form-lazy-view",
 	      alias : "component" // for the template
-      },
+      }},
 	    lazyTemplate : function() {/**
 		      <div class="form-group">
 		        <input type="text" class="form-control component-name" placeholder="<%= component.name %>">

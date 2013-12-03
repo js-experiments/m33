@@ -5,10 +5,10 @@ define([
     'bootstrap',
 		'models/Component',
     'models/Components',
-    'views/ComponentsView',
-		'views/ComponentsLazyView',
-		'views/ComponentFormView',
-		'views/ComponentFormLazyView',
+    'views/Components/view',
+		'views/ComponentsLazy/view',
+		'views/ComponentForm/view',
+		'views/ComponentFormLazy/view',
     'little',
 		'highlight', // ==> globals
 		'showdown' // ==> globals
@@ -26,7 +26,7 @@ define([
 
 	    routes : {
 		    "help": "help",    // #help
-		    ""          : "home",
+		    ""    : "home",
 		    //"toons/:id" : "select", // #toons/1
 		    //"page_:id" : "select", // #page_001 #page_002 etc ...
 		    '*actions': 'defaultAction'

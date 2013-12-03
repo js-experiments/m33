@@ -31,6 +31,15 @@ pulldown "https://raw.github.com/twbs/bootstrap/master/dist/fonts/glyphicons-hal
 
 pulldown "https://raw.github.com/coreyti/showdown/master/src/showdown.js" -o js/vendors
 
+pulldown "https://raw.github.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css" -o font-awesome/css
+pulldown "https://raw.github.com/FortAwesome/Font-Awesome/master/css/font-awesome.css" -o font-awesome/css
+
+pulldown "https://github.com/FortAwesome/Font-Awesome/raw/master/fonts/FontAwesome.otf" -o font-awesome/fonts
+pulldown "https://github.com/FortAwesome/Font-Awesome/raw/master/fonts/fontawesome-webfont.eot" -o font-awesome/fonts
+pulldown "https://github.com/FortAwesome/Font-Awesome/raw/master/fonts/fontawesome-webfont.svg" -o font-awesome/fonts
+pulldown "https://github.com/FortAwesome/Font-Awesome/raw/master/fonts/fontawesome-webfont.ttf" -o font-awesome/fonts
+pulldown "https://github.com/FortAwesome/Font-Awesome/raw/master/fonts/fontawesome-webfont.woff" -o font-awesome/fonts
+
 
 
 

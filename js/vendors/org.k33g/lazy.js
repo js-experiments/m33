@@ -19,16 +19,16 @@ define(['jquery','backbone'], function ($, Backbone) {
 	var Lazy = {
 
 		View : Backbone.View.extend({
-			properties : {},
+			properties : function(){},
 
 			initialize : function () {
 
-				this.$el = this.el = $(this.properties.el);
+				this.$el = this.el = $(this.properties().el);
 
 				if (this.lazyTemplate) {
 					this.template = _.template(this.lazyTemplate.toString().split("/**")[1].split("**/")[0])
 				} else {
-					this.template = _.template(this.properties.template);
+					this.template = _.template(this.properties().template);
 				}
 
 				if(this.collection) {
@@ -43,8 +43,8 @@ define(['jquery','backbone'], function ($, Backbone) {
 			render : function () {
 				var objDataToBeRendered = {};
 
-				if(this.model) { objDataToBeRendered[this.properties.alias] = this.model.toJSON(); }
-				if(this.collection) { objDataToBeRendered[this.properties.alias] = this.collection.toJSON(); }
+				if(this.model) { objDataToBeRendered[this.properties().alias] = this.model.toJSON(); }
+				if(this.collection) { objDataToBeRendered[this.properties().alias] = this.collection.toJSON(); }
 
 				var renderedContent = this.template(objDataToBeRendered);
 				this.el.html(renderedContent);
@@ -58,6 +58,9 @@ define(['jquery','backbone'], function ($, Backbone) {
 				this.remove(); // Remove view from DOM
 				delete this.$el;
 				delete this.el;
+
+				//TODO: test this : http://metametadata.wordpress.com/2013/06/17/backbone-js-1-0-0-nested-view-memory-leak/
+
 			},
 			getData : function(selector, attribute) {
 				return this.$el.find(selector).data(attribute);
@@ -95,12 +98,6 @@ define(['jquery','backbone'], function ($, Backbone) {
 			getHashValue : function(e) {
 				return e.target.hash.split("#")[1];
 			}
-		}),
-
-		Controller : Backbone.View.extend({}),
-
-		Application : Backbone.Router.extend({
-
 		})
 
 	};
